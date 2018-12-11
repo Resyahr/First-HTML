@@ -1,0 +1,129 @@
+body{
+  margin: 60px;
+  background-image: url("/home/rhayser/Desktop/Projects/Second trial/css_background2.jpg");
+  font-family: impact;
+}
+
+.content{
+  padding-right: 120px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 100px;
+}
+
+h1 {
+  background-image: url("/home/rhayser/Desktop/Projects/Second trial/pattern_1.jpeg");
+  font-family: Helvetica;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  font-size: 100px;
+  border-radius: 50px;
+  border: 5px dotted yellow;
+}
+
+h3{
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-size: 22px;
+  text-align: center;
+  color: beige;
+}
+
+#brushes{
+  background-color: mediumspringgreen;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+  text-align: center;
+  border-bottom-style: outset;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+}
+
+#frames{
+  background-color: lightcoral;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-style: outset;
+  border-bottom-color: blue;
+  border-bottom-width: 5px;
+}
+
+#paint{
+  background-color: skyblue;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-style: inset;
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+}
+
+strong{
+  font-family: Helvetica;
+  font-weight: bold;
+  color: pink;
+}
+
+p{
+  font-family: impact;
+  color: beige;
+  width: 1050px;
+  font-size: 18px
+  border: 2px dashed red;
+  margin-right: 200px;
+}
+ footer{
+   text-align: center;
+   text-decoration: none;
+   color="white"
+ }
+
+ .navigation ul{
+   text-align: center;
+   color: white;
+   margin-top: -35px;
+   font-size: 30px;
+   font-family: impact;
+ }
+
+ .navigation li{
+   display: inline;
+   letter-spacing: 2px;
+   font-weight: bold;
+   padding: 0px 60px 0 60px;
+ }
+
+ .navigation a:hover{
+   background: white;
+   padding: 10px;
+   border-radius: 100%;
+ }
+
+ a{
+   text-decoration: none;
+   color: lightcoral;
+ }
+ img{
+   display: block;
+   margin-left: 25px;
+   margin-right: auto;
+   border-radius: 45%;
+   border: 5px dotted yellow;
+ }
