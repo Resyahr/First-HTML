@@ -1,7 +1,12 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   margin: 60px;
   background-image: url("/home/rhayser/Desktop/Projects/Second trial/css_background2.jpg");
   font-family: impact;
+  background-repeat: round;
 }
 
 .content{
@@ -15,11 +20,11 @@ h1 {
   background-image: url("/home/rhayser/Desktop/Projects/Second trial/pattern_1.jpeg");
   font-family: Helvetica;
   font-weight: bold;
-  color: khaki;
+  color: #FFF;
   text-align: center;
   font-size: 100px;
   border-radius: 50px;
-  border: 5px dotted yellow;
+  border: 5px solid silver;
 }
 
 h3{
@@ -43,6 +48,8 @@ h3{
   border-bottom-right-radius: 10px;
   border-bottom-color: red;
   border-bottom-width: 5px;
+  border-left: 5px outset silver;
+  border-top: 5px outset silver;
 }
 
 #frames{
@@ -58,6 +65,8 @@ h3{
   border-bottom-style: outset;
   border-bottom-color: blue;
   border-bottom-width: 5px;
+  border-left: 5px outset silver;
+  border-top: 5px outset silver;
 }
 
 #paint{
@@ -73,6 +82,8 @@ h3{
   border-bottom-style: inset;
   border-bottom-color: red;
   border-bottom-width: 5px;
+  border-left: 5px outset silver;
+  border-top: 5px outset silver;
 }
 
 strong{
@@ -83,21 +94,24 @@ strong{
 
 p{
   font-family: impact;
-  color: beige;
+  color: khaki;
   width: 1050px;
   font-size: 18px
   border: 2px dashed red;
   margin-right: 200px;
+  max-width: 600px;
+  text-align: justify;
 }
  footer{
    text-align: center;
    text-decoration: none;
-   color="white"
+   color: white;
+   background-color: black;
+   padding-top: 50px;
  }
 
  .navigation ul{
    text-align: center;
-   color: white;
    margin-top: -35px;
    font-size: 30px;
    font-family: impact;
@@ -113,17 +127,19 @@ p{
  .navigation a:hover{
    background: white;
    padding: 10px;
-   border-radius: 100%;
+   animation: ease;
  }
 
  a{
    text-decoration: none;
-   color: lightcoral;
+   color: black;
+   border: 2px solid black;
+   background-color: silver;
  }
  img{
    display: block;
    margin-left: 25px;
    margin-right: auto;
-   border-radius: 45%;
-   border: 5px dotted yellow;
+   border-radius: 50%;
+   border: 1px solid silver;
  }
